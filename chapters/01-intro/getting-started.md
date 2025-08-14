@@ -31,24 +31,37 @@ Link to [Chapter 2-good stuff](02-fundamentals/good-stuff)
 1. TOC
 {:toc}
 
+<div class="okay-code" markdown="1">
 ```java
 public static void main(String[] args) {
   System.out.println("Hello, World!");
 }
 ```
+</div>
+
 <div class="good-code" markdown="1">
 ```java
 int x = 5;
 ```
 </div>
-::: {note} Just a note!
-You should know how to do these.
-:::
+> [!NOTE] Just a note!
+> You should know how to do these.
 
-::: {important} Heads Up!
-This is an important block with a custom heading.
-:class: dropdown
-:::
+## Just-the-Docs Callouts
+See documention [here](https://just-the-docs.com/docs/ui-components/callouts/){: .btn .btn-blue } 
+
+> [!TIP] Heads Up!
+> This is just a tip
+
+> [!IMPORTANT]
+> This is an important block with a custom heading.
+
+{: highlight }
+A paragraph that is highlighted
+
+{: note }
+Another way to do a note.
+
 
 ## Prerequisites
 
@@ -66,3 +79,12 @@ Description of first setup step:
 # Example command
 command --setup --option value
 ```
+
+## Table
+
+| head1        | head two          | three |
+|:-------------|:------------------|:------|
+| ok           | good swedish fish | nice  |
+| out of stock | good and plenty   | nice  |
+| ok           | good `oreos`      | hmm   |
+| ok           | good `zoute` drop | yumm  |
