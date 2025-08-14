@@ -1,11 +1,12 @@
 ---
 layout: default
 title: Good Stuff
-nav_order: 2
+nav_order: 1
 parent: "Chapter 2: Fundamentals"
-grand_parent: Chapters
-permalink: /chapters/01-intro/getting-started/
+permalink: /chapters/02-fundamentals/good-stuff/
 ---
 
-# Getting Started
+# Good Stuff goes here
 {: .no_toc }
+
+You'll find out the best!

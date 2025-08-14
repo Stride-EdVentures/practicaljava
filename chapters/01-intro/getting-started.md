@@ -3,7 +3,6 @@ layout: default
 title: Getting Started
 nav_order: 2
 parent: "Chapter 1: Introduction"
-grand_parent: Chapters
 permalink: /chapters/01-intro/getting-started/
 ---
 

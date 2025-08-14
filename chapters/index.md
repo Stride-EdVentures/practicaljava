@@ -1,3 +1,5 @@
+```
+This should be ignored. Perhaps we delete the index.md file altogether?
 ---
 layout: default
 title: "Chapters"
@@ -20,3 +22,5 @@ Welcome to the first chapter! This chapter introduces the fundamental concepts a
 
 1. TOC
 {:toc}
+
+```

@@ -3,7 +3,6 @@ layout: default
 title: Overview
 nav_order: 1
 parent: "Chapter 1: Introduction"
-grand_parent: Chapters
 permalink: /chapters/01-introduction/overview/
 ---
 

@@ -1,8 +1,7 @@
 ---
 layout: default
 title: "Chapter 2: Fundamentals"
-nav_order: 2
-parent: Chapters
+nav_order: 3
 has_children: true
 permalink: /chapters/02-fundamentals/
 ---
