@@ -7,6 +7,8 @@ url: "https://stride-edventures.github.io/practicaljava"
 # Theme - Just the Docs is reliable and book-like
 remote_theme: just-the-docs/just-the-docs
 
+logo: "/assets/images/logo.png"
+
 # Enable search
 search_enabled: true
 search:
@@ -25,7 +27,7 @@ nav_sort: order
 enable_copy_code_button: true
 
 # Footer
-footer_content: "Copyright &copy; 2024 Your Name. Distributed under the MIT License."
+footer_content: "Copyright &copy; 2025 Jeffrey Zane Stride."
 
 # Color scheme
 color_scheme: light
@@ -42,6 +44,17 @@ kramdown:
   input: GFM
   syntax_highlighter: rouge
 
+callouts:
+  warning:
+    title: Warning
+    color: red
+  note:
+    title: Note
+    color: blue
+  highlight:
+    title: Observe
+    color: yellow
+    
 # Exclude files
 exclude:
   - README.md

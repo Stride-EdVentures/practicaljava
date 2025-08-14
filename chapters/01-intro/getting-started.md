@@ -51,13 +51,11 @@ int x = 5;
 See documention [here](https://just-the-docs.com/docs/ui-components/callouts/){: .btn .btn-blue } 
 
 
+A paragraph that is highlighted{: .highlight }
 
+This is a warning{: .warning }
 
-A paragraph that is highlighted {: .highlight }
-
-
-{: .note }
-Another way to do a note. 
+Another way to do a note.{: .note } 
 
 
 ## Prerequisites
@@ -68,6 +66,11 @@ Before you begin, make sure you have:
 - foo
 
 ## Setup Steps
+
+<details>
+  <summary>Click to expand</summary>
+  <p>This is the hidden content that will be shown when expanded.</p>
+</details>
 
 ### Step 1: Initial Setup
 Description of first setup step:
