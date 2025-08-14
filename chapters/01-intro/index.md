@@ -1,8 +1,7 @@
 ---
 layout: default
 title: "Chapter 1: Introduction"
-nav_order: 1
-parent: Chapters
+nav_order: 3
 has_children: true
 permalink: /chapters/01-intro/
 ---
