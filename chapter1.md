@@ -11,7 +11,7 @@ Welcome to your first chapter! This section will cover the fundamentals you need
 
 Before diving in, make sure you have:
 
-- Basic understanding of [relevant background knowledge]
+- Link to [Chapter 2](chapter2)
 - [Required software/tools] installed
 - A willingness to learn!
 
@@ -21,6 +21,8 @@ Let's get everything set up:
 
 ### Step 1: Download Required Tools
 
-```bash
-# Example command
-npm install -g your-tool
+```java
+public void go() {
+  int y = 2;
+}
+```
