@@ -1,0 +1,16 @@
+- title: Introduction
+  url: /
+- title: Getting Started
+  url: /chapter1
+  children:
+    - title: Prerequisites
+      url: /chapter1#prerequisites
+    - title: Installation
+      url: /chapter1#installation
+- title: Core Concepts
+  url: /chapter2
+  children:
+    - title: Basic Principles
+      url: /chapter2#basic-principles
+    - title: Advanced Topics
+      url: /chapter2#advanced-topics
