@@ -4,18 +4,35 @@ author: Jeff Stride
 baseurl: "/practicaljava"
 url: "https://stride-edventures.github.io/practicaljava"
 
+# Markdown settings
 markdown: kramdown
-highlighter: rouge
-theme: minima
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    block:
+      line_numbers: true
 
 plugins:
   - jekyll-feed
   - jekyll-sitemap
-  
+  - jekyll-seo-tag
+
+# Theme
 remote_theme: sighingnow/jekyll-theme-gitbook
 
-# Book structure
-collections:
-  chapters:
-    output: true
-    permalink: /:collection/:name/
+# Exclude files from processing
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  
+# Book settings
+gitbook:
+  sharing:
+    github: true
+    edit: true
+  search: true
+  
