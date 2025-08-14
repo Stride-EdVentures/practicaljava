@@ -4,35 +4,47 @@ author: Jeff Stride
 baseurl: "/practicaljava"
 url: "https://stride-edventures.github.io/practicaljava"
 
-# Markdown settings
-markdown: kramdown
-kramdown:
-  input: GFM
-  syntax_highlighter: rouge
-  syntax_highlighter_opts:
-    block:
-      line_numbers: true
+# Theme - Just the Docs is reliable and book-like
+remote_theme: just-the-docs/just-the-docs
 
+# Enable search
+search_enabled: true
+search:
+  heading_level: 2
+  previews: 2
+  preview_words_before: 3
+  preview_words_after: 3
+  tokenizer_separator: /[\s/]+/
+  rel_url: true
+  button: false
+
+# Navigation structure
+nav_sort: order
+
+# Enable copy code button
+enable_copy_code_button: true
+
+# Footer
+footer_content: "Copyright &copy; 2024 Your Name. Distributed under the MIT License."
+
+# Color scheme
+color_scheme: light
+
+# Plugins
 plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
 
-# Theme
-remote_theme: sighingnow/jekyll-theme-gitbook
+# Markdown settings
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
 
-# Exclude files from processing
+# Exclude files
 exclude:
   - README.md
   - Gemfile
   - Gemfile.lock
-  - node_modules
-  - vendor
-  
-# Book settings
-gitbook:
-  sharing:
-    github: true
-    edit: true
-  search: true
   
