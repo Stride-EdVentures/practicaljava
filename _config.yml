@@ -1,0 +1,19 @@
+title: Practical Java
+description: Practical Programming in Java
+author: Jeff Stride
+baseurl: "/practicaljava"
+url: "https://practicaljava.github.io"
+
+markdown: kramdown
+highlighter: rouge
+theme: minima
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+
+# Book structure
+collections:
+  chapters:
+    output: true
+    permalink: /:collection/:name/
