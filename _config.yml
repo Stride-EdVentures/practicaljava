@@ -11,6 +11,8 @@ theme: minima
 plugins:
   - jekyll-feed
   - jekyll-sitemap
+  
+remote_theme: sighingnow/jekyll-theme-gitbook
 
 # Book structure
 collections:
