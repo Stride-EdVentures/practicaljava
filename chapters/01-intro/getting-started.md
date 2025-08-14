@@ -50,17 +50,14 @@ int x = 5;
 ## Just-the-Docs Callouts
 See documention [here](https://just-the-docs.com/docs/ui-components/callouts/){: .btn .btn-blue } 
 
-> [!TIP] Heads Up!
-> This is just a tip
 
-> [!IMPORTANT]
-> This is an important block with a custom heading.
 
-{: highlight }
-A paragraph that is highlighted
 
-{: note }
-Another way to do a note.
+A paragraph that is highlighted {: .highlight }
+
+
+{: .note }
+Another way to do a note. 
 
 
 ## Prerequisites
