@@ -3,7 +3,7 @@ layout: default
 title: Overview
 nav_order: 1
 parent: "Chapter 1: Introduction"
-permalink: /chapters/01-introduction/overview/
+permalink: /chapters/01-intro/overview/
 ---
 
 # Overview

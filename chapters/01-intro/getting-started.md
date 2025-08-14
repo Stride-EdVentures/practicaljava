@@ -33,11 +33,12 @@ public static void main(String[] args) {
   System.out.println("Hello, World!");
 }
 ```
-
-```{code-block} java
+<div class="good-code" markdown="1">
+```java
 :class: good-code
 int x = 5;
 ```
+</div>
 
 ## Prerequisites
 
