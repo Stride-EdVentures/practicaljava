@@ -6,13 +6,13 @@ parent: "Chapter 1: Introduction"
 permalink: /chapters/01-intro/getting-started/
 ---
 <style>
-.good-code {
+div.good-code div {
     background-color: rgba(209, 255, 211, 0.5) !important; /* Light green */
 }
-.bad-code {
+div.bad-code div {
     background-color: rgba(255, 209, 209, 0.5) !important;
 }
-.okay-code {
+div.okay-code div {
     background-color: rgba(253, 255, 201, 0.5) !important;
 }
 </style>
