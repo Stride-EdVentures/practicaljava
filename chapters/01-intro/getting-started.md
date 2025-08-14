@@ -44,18 +44,21 @@ public static void main(String[] args) {
 int x = 5;
 ```
 </div>
-> [!NOTE] Just a note!
+
+> **Just a note!**
 > You should know how to do these.
 
 ## Just-the-Docs Callouts
 See documention [here](https://just-the-docs.com/docs/ui-components/callouts/){: .btn .btn-blue } 
 
+{: .highlight }
+A paragraph that is highlighted
 
-A paragraph that is highlighted{: .highlight }
+{: .warning }
+This is a warning
 
-This is a warning{: .warning }
-
-Another way to do a note.{: .note } 
+{: .note }
+Another way to do a note. 
 
 
 ## Prerequisites
